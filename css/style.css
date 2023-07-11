@@ -382,3 +382,15 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+.whatsapp-btn {
+    position: fixed;
+    bottom: 300px;
+    right: 80px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.whatsapp-btn.show {
+    transform: translateX(0);
+}
