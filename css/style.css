@@ -1,7 +1,8 @@
 /********** Template CSS **********/
 :root {
     --primary: #3CB815;
-    --secondary: #F65005;
+    --secondary: c1193e;
+    --terciary: #c1193e;
     --light: #F7F8FC;
     --dark: #111111;
 }
@@ -179,7 +180,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -343,6 +344,11 @@
     color: #999999;
 }
 
+.logo-footer {
+    height: 80px; !important
+    
+}
+
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
@@ -382,6 +388,7 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
 .whatsapp-btn {
     position: fixed;
     bottom: 300px;
